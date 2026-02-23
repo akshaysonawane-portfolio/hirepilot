@@ -1,1 +1,5 @@
-venv
+.env
+.streamlit/secrets.toml
+data/database.db
+__pycache__/
+venv/
