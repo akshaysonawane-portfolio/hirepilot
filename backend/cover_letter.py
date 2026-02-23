@@ -42,4 +42,4 @@ def generate_cover_letter(resume_text, jd_text, applicant_name=""):
         messages=[{"role": "user", "content": prompt}]
     )
 
-    return response.choices[0].message["content"]
+    return response.choices[0].message.content

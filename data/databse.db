@@ -1,8 +1,0 @@
-streamlit
-openai
-python-dotenv
-PyPDF2
-sentence-transformers
-numpy
-scikit-learn
-sqlite3-binary
