@@ -3,6 +3,5 @@ openai
 python-dotenv
 PyPDF2
 sentence-transformers
-numpy
+numpy==1.26.4
 scikit-learn
-sqlite3-binary
