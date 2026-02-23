@@ -66,6 +66,7 @@ Designed as a **real portfolio project**, HirePilot demonstrates practical AI ap
 ---
 
 ## 🧩 Architecture
+```bash
 hirepilot/
 │── app.py # Main Streamlit UI
 │── backend/
@@ -82,7 +83,7 @@ hirepilot/
 │── requirements.txt # Dependencies
 │── runtime.txt # Python version for Streamlit Cloud
 └── README.md
-
+```
 
 
 ---
@@ -99,11 +100,15 @@ cd hirepilot
 ---
 
 2️⃣ Create virtual environment
+```bash
 python3 -m venv venv
 source venv/bin/activate     # Mac/Linux
 venv\Scripts\activate        # Windows
+```
 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 4️⃣ Add your OpenAI key locally
 
 Create .env:
